@@ -1,0 +1,67 @@
+body {
+  background-color: #03A9F4;
+}
+
+#lever {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  background-color: #E65100;
+  background: linear-gradient(180deg, #E65100, #FF9800);
+  border: 20px solid #FF9800;
+  border-radius: 50%;
+  top: 20%;
+  right: 2%;
+  transition: top .6s ease;
+}
+
+#lever.pull {
+  top: 50%;
+}
+
+#view-master {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 100px;
+  background-color: #F44336;
+}
+
+.slide-reel {
+  width: 400px;
+  height: 400px;
+  background-color: #EEE;
+  border-radius: 50%;
+  position: relative;
+  transform: rotateZ(0deg);
+  transition: transform 1s ease;
+}
+
+.slide {
+  text-align: center;
+  font-size: 36px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  position: absolute;
+  background-color: #000;
+  color: #FFF;
+  transform-origin: left 50%;
+}
+
+#slide-0 { transform: translateX(200px) translateY(180px) rotateZ(0deg) translateX(150px); }
+#slide-1 { transform: translateX(200px) translateY(180px) rotate(calc(-1turn / 14)) translateX(150px); }
+#slide-2 { transform: translateX(200px) translateY(180px) rotateZ(calc(-2turn / 14)) translateX(150px); }
+#slide-3 { transform: translateX(200px) translateY(180px) rotateZ(calc(-3turn / 14)) translateX(150px); }
+#slide-4 { transform: translateX(200px) translateY(180px) rotateZ(calc(-4turn / 14)) translateX(150px); }
+#slide-5 { transform: translateX(200px) translateY(180px) rotateZ(calc(-5turn / 14)) translateX(150px); }
+#slide-6 { transform: translateX(200px) translateY(180px) rotateZ(calc(-6turn / 14)) translateX(150px); }
+#slide-7 { transform: translateX(200px) translateY(180px) rotateZ(calc(-7turn / 14)) translateX(150px); }
+#slide-8 { transform: translateX(200px) translateY(180px) rotateZ(calc(-8turn / 14)) translateX(150px); }
+#slide-9 { transform: translateX(200px) translateY(180px) rotateZ(calc(-9turn / 14)) translateX(150px); }
+#slide-10 { transform: translateX(200px) translateY(180px) rotateZ(calc(-10turn / 14)) translateX(150px); }
+#slide-11 { transform: translateX(200px) translateY(180px) rotateZ(calc(-11turn / 14)) translateX(150px); }
+#slide-12 { transform: translateX(200px) translateY(180px) rotateZ(calc(-12turn / 14)) translateX(150px); }
+#slide-13 { transform: translateX(200px) translateY(180px) rotateZ(calc(-13turn / 14)) translateX(150px); }
